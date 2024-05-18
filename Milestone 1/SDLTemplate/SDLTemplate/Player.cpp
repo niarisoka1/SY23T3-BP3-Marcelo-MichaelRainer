@@ -40,7 +40,7 @@ void Player::update()
 		speed = 5;
 	}
 
-	if (app.keyboard[SDL_SCANCODE_SPACE])
+	if (app.keyboard[SDL_SCANCODE_BACKSPACE])
 	{
 		speed = 2;
 	}
